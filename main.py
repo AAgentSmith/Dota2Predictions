@@ -55,3 +55,5 @@ serialization(support_vector_machine["Model"], "/home/agentsmith/", "my_svm_mode
 # Simulation d'une phase de pick / lancer le script "pick_coaching.py" avec la commande bokeh serv
 os.chdir("/media/agentsmith/D64C25154C24F1C3/Work/Travaux/Dota2Predictions")
 os.system("bokeh serve pick_coaching.py")
+
+# Fin du script
