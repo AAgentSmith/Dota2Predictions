@@ -24,7 +24,7 @@ api_steam_data_query()
 var_init = var_init("Dota2DataBase", "matchsFiltered", "heroeslistdb", "itemslistdb")
 
 # Selection des données d'analyse
-data_process = data_processing(var_init, 100)
+data_process = data_processing(var_init, 10)
 
 # Construction des DataFrame à partir des données selectionnées
 apply_fill_dataframe = apply_fill_dataframe(data_process, "Custom2")
